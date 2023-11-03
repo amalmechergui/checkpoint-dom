@@ -1,0 +1,127 @@
+body{
+  background-color:rgb(238 216 249);
+}
+
+img{
+  width: 250px;
+  height: 250px; 
+}
+
+.carte1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  border-radius: 13px;
+  margin-left: 120px;
+}
+
+#p1{
+  margin-left: 20px;
+}
+#m1{
+  margin-left: 21px;
+}
+#q1{
+  margin-left: 28px;
+}
+.carte2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  border-radius: 13px;
+  margin-left: 120px;
+  
+}
+#p2{
+  margin-left: 20px;
+}
+#m2{
+  margin-left: 21px;
+}
+#q2{
+  margin-left: 28px;
+}
+.carte3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 700px;
+  height: 300px;
+  background-color: white;
+  border-radius: 13px;
+margin-left: 120px;
+}
+#p3{
+  margin-left: 20px;
+}
+#m3{
+  margin-left: 21px;
+}
+#q3{
+  margin-left: 28px;
+}
+.delete-btn{
+  background-color: rgb(236, 12, 12);
+  margin: 18px 20px
+}
+.fa-solid.fa-heart{
+margin-right: 20px;
+}
+.tx{
+  width: 43%;
+  font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: -.3px;
+    color: rgb(236, 12, 12);
+    font-family: system-ui;
+    margin-left: 314px;
+
+}
+h3{
+  display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.card-body {
+  background: #fefeff;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 200px;
+    width: 350px;
+    margin:50px 20px 0;
+    transition: all .2s ease 0s;
+    float: left;
+   
+}
+
+.me-2{
+  width: 50px;
+  padding-right: 30px;
+  margin-top: -88px;
+}
+
+.buy{
+  background: #fefeff;
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 230px;
+  width: 350px;
+  margin-right: 20px;
+  transition: all .2s ease 0s;
+  margin-top:50px;
+  float: left;
+  
+}

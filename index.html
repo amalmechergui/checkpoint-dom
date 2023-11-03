@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>shopping Carte</title>
+ <link rel="stylesheet"
+ href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+ <link rel="stylesheet" href="style.css">
+ <style>
+  .shoppingCart {
+    display: flex;
+  }
+
+  .like {
+    color: red;
+  }
+</style>
+</head>
+
+<body>
+ <div class="container">
+  <header>
+   <h1>Your Shopping carte </h1>
+   <label for="site-search">Search Product:</label>
+<input type="search" id="site-search" name="q" />
+
+<input type="button" value="Search">
+ </div>
+ 
+ 
+<!-- Product 1 -->
+
+<div class="carte1">
+ <button class="delete-btn">X</button>
+ <i class="fa-solid fa-heart"></i>
+ <h3>IPHONE-14: prix= <span id="s1"> 2040 </span> dt</h3>
+ <img src="https://external.webstorage.gr/mmimages/image/20/22/82/98/1718801-APPLE-IPHONE-14-512GB-BLUE-hero-560x560.jpg" alt="IPHONE-14" />
+ <div>
+  <button id="p1" onclick="plusClick(this.id)">+</button>
+  <p id="q1">0</p>
+  <button id="m1"onclick="minusClick(this.id)">-</button>
+  <p>TOTAL = <span id="t1">0</span></p>
+</div>
+</div> 
+<!-- Product 2 -->
+<div class="carte2">
+ <button class="delete-btn">X</button>
+ <i class="fa-solid fa-heart"></i>
+ <h3>Galaxy-A52:prix= <span id="s2"> 1460 </span> dt</h3>
+ <img src="https://mercurycomputerslimited.com/wp-content/uploads/2021/03/Samsung-Galaxy-A52-A525-4G-6GB128GB-Dual-Sim.jpg" alt="Samsung-Galaxy-A52" />
+ <div>
+  <button id="p2" onclick="plusClick(this.id)">+</button>
+  <p id="q2">0</p>
+  <button id="m2" onclick="minusClick(this.id)">-</button>
+  <p>TOTAL = <span id="t2">0</span></p>
+</div>
+</div>
+<!-- Product 3-->
+<div class="carte3">
+ <button class="delete-btn">X</button>
+ <i class="fa-solid fa-heart"></i>
+ <h3>NOKIA: prix=<span id="s3"> 980 </span> dt</h3>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS55ZHNwc8ST8mGxSEYH-bsUorkseABdy1RmxPJLtgUR8b6z-GZbTIlk0lJXVHgKKpmATQ&usqp=CAU" alt="NOKIA" />
+ <div>
+  <button id="p3" onclick="plusClick(this.id)">+</button>
+  <p id="q3">0</p>
+  <button id="m3"onclick="minusClick(this.id)">-</button>
+  <p>TOTAL = <span id="t3">0</span></p>
+</div>
+</div>
+</div>
+
+<p class="tx">TOTAL PRICE = <span id="totalP">0</span></p>
+<!-- PAYMENT -->
+<div class="card-body">
+ <h2>We accept </h2>
+ <br>
+ <img class="me-2" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg" alt="Visa">
+ <img class="me-2" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg" alt="American Express">
+ <img class="me-2" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg" alt="Mastercard">
+</div>
+
+<div class="buy">
+<form>
+  <h3> PAYMENT</h3>
+  <label>Name on Card:</label>
+  <input type="text" name="Name on Card" placeholder="Type your name here">
+  <br>
+  <label>Carde Number:</label>
+  <input type="number" name="number" value="123456789">
+  <br>
+  <label>Phone number:</label>
+  <input type="number" name="number" value="123456789">
+  <br>
+  <label>e-mail:</label>
+  <input type="text" name="e-mail" placeholder="Type your e-mail here">
+  <br>
+  <label>Password:</label>
+  <input type="password" name="password">
+  <br>
+  <br>
+  <input type="submit" value="BUY NOW" style="background-color:DodgerBlue;">
+  <br>
+  <br><br>
+  <br>
+</form>
+</div>
+  
+ <script src="/main.js"></script>
+</body>
+
+</html>
